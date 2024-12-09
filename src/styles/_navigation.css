@@ -11,6 +11,16 @@
         width: 100px;
     }
 }
+.logo {
+    transition: opacity 0.3s ease;
+    
+}
+
+.logo.hidden {
+    opacity: 0;
+    pointer-events: none;
+    
+}
 
 .burger-menu {
     cursor: pointer;
@@ -34,7 +44,7 @@
     &.open {
         display: flex;
         background-color: #355675;
-        
+     
     }
 
     li {

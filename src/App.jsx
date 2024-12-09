@@ -1,7 +1,4 @@
 
-
-
-
 import Navigation from './components/Navigation'
 import { useRoutes } from 'react-router-dom'
 

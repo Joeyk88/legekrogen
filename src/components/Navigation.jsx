@@ -12,7 +12,9 @@ const Navigation = () => {
 
   return (
     <nav className='navbar'>
-      <img src='src/assets/logo/legekrogen_logo.png' alt='legekrogen_logo' />
+      <img src='src/assets/logo/legekrogen_logo.png' 
+      alt='legekrogen_logo'
+      className={isOpen ? 'logo hidden' : 'logo'} />
       <div className='burger-menu' onClick={toggleMenu}>
         {isOpen ? <IoClose size = {36} /> : <GiHamburgerMenu size ={36} />}
       </div>
